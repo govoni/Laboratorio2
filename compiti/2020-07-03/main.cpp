@@ -48,7 +48,6 @@ int main (int argc, char ** argv)
   TCanvas c1 ; 
   c1.SetLogy () ;
 
-  TGraph g_pValue ; 
   TGraph g_Variance ;
   for (int i = 0 ; i < histos.size () ; ++i) 
     {
@@ -56,16 +55,11 @@ int main (int argc, char ** argv)
       TFitResultPtr fitResult = histos.at (i)->Fit ("gaus") ;
       histos.at (i)->Draw ("hist") ;
       histos.at (i)->GetFunction ("gaus")->Draw ("same") ;
-      g_pValue.SetPoint (
-          g_pValue.GetN (),
-          i + 1,
-          histos.at (i)->GetFunction ("gaus")->GetProb ()
-        ) ;
 
       g_Variance.SetPoint (
-          g_pValue.GetN (),
+          g_Variance.GetN (),
           i + 1,
-          histos.at (i)->GetRMS ()
+          histos.at (i)->GetRMS () * histos.at (i)->GetRMS () 
         ) ;
 
       TString fileName = histos.at (i)->GetName () ;
@@ -82,13 +76,6 @@ int main (int argc, char ** argv)
   g_Variance.Fit (&fitfunc) ;
   c1.Update () ;
   c1.Print ("Variance.png", "png") ;
-
-  g_pValue.SetMarkerStyle (20) ;
-  g_pValue.SetMarkerColor (kGreen + 2) ;
-  g_pValue.GetHistogram ()->GetXaxis ()->SetTitle ("N_split") ;
-  c1.Update () ;
-  g_pValue.Draw ("APL") ;
-  c1.Print ("pValue.png", "png") ;
 
   for (int i = 0 ; i < histos.size () ; ++i) delete histos.at (i) ;
 

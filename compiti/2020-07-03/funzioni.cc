@@ -64,5 +64,6 @@ TH1F * getDistrib (int Nbiglie, int Nsplit)
 
 double trend (double * x, double * par)
 {
-  return par[0] * sqrt (x[0]) ;
+//  return par[0] * sqrt (x[0]) ;
+  return par[0] * x[0] ;
 }
