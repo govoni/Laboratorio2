@@ -1,0 +1,10 @@
+Giovanni		Rossi	236521400253 1345.36
+-20.92			Camicia
+-50.36			Pizza
+-73.04			Bolletta
+-150.36			Ristorante
+-15.00			Cinema
+150.00			Rimborso
+-38.00			Carburante
+500.56			Stipendio
+-200.00			Idraulico
