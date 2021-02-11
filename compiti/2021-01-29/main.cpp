@@ -63,29 +63,5 @@ int main (int argc, char ** argv)
   double covarianza = figura.covarianza () ;
   cout << "sigma xy: " << covarianza << endl ;
 
-  // cout << "starting from "
-  //      << 0.5 * figura.righe () << " "
-  //      << 0.5 * figura.colonne () << " "
-  //      << 0.5 * figura.colonne () << "\n" ;
-
-  // std::vector<double> cerchio = gradientDescent3D (
-  //     figura, 
-  //     0.5 * figura.righe (),
-  //     0.5 * figura.colonne (),
-  //     0.5 * figura.colonne (),
-  //     5. // step
-  //   ) ;
- 
-  // cout << cerchio.at (0) 
-  //      << " " << cerchio.at (1)
-  //      << " " << cerchio.at (2)
-  //      << "\n" ;
-
-  // h_immagine_grezza->Draw ("colz") ;
-  // TEllipse el1 (cerchio.at (0), cerchio.at (1), cerchio.at (2), cerchio.at (2)) ;
-  // el1.Draw ("same") ;
-  // c1.Print ("h_immagine_grezza_circle.png", "png") ;
-  // el1.Draw () ;
-
   return 0 ;
 }  
