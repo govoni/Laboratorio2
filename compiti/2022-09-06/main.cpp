@@ -51,9 +51,9 @@ int main (int argc, char ** argv)
 
   double sigmaToys = sigma (vToys) ;
   cout << "media dei punti : " << media (vToys)  
-       << " +- " << sigmaToys / static_cast <double> (NToys) << "\n" ;
+       << " +- " << sigmaToys / sqrt (static_cast <double> (NToys)) << "\n" ;
   cout << "sigma dei punti : " << sigmaToys
-       << " +- " << sqrt (2/static_cast<double>(NToys-1)) * varianza (vToys) << "\n" ;
+       << " +- " << sigmaToys / sqrt (2 * static_cast <double> (NToys - 1)) << "\n" ;
 
   return 0 ;
 }
