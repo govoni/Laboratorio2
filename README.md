@@ -8,6 +8,7 @@ e di laboratorio di calcolo e statistica a partire dal 2023.
 
 | data | titolo |
 | --- | --- |
+| 16/09/2024 | Numeri quasi casuali |
 | 24/06/2024 | La verosimiglianza e il suo profilo |
 | 19/02/2024 | Un dataset da Nobel: la densità dell'universo |
 | 05/02/2024 | Test di bontà di fit |
