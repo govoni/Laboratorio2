@@ -8,6 +8,7 @@ e di laboratorio di calcolo e statistica a partire dal 2023.
 
 | data | titolo |
 | --- | --- |
+| 24/02/2024 | Receiving operator characteristic per un fit |
 | 10/10/2024 | Il metodo di Box-Mueller per generare numeri pseudo-casuali Gaussiani |
 | 16/09/2024 | Numeri quasi casuali |
 | 24/06/2024 | La verosimiglianza e il suo profilo |
