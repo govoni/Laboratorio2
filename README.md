@@ -21,7 +21,7 @@ e di laboratorio di calcolo e statistica a partire dal 2023.
 | 18/09/2023 | La distribuzione di Cauchy |
 | 04/09/2023 | Incertezze statistiche e sistematiche in un fit |
 | 03/07/2023 | Bontà di un fit |
-| 19/06/2023 | Untegrali bidimensionali |
+| 19/06/2023 | Integrali bidimensionali |
 | 15/02/2023 | Un'applicazione del teorema centrale del limite |
 | 03/02/2023 | La ricerca di un picco sul fondo |
 | 26/09/2022 | Traiettoria parabolica |
