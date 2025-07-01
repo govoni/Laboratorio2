@@ -14,6 +14,7 @@ e di laboratorio di calcolo e statistica a partire dal 2023.
 | 13/01/2025 | Una Gaussiana asimmetrica |
 | 10/10/2024 | Il metodo di Box-Mueller per generare numeri pseudo-casuali Gaussiani |
 | 16/09/2024 | Numeri quasi casuali |
+| 08/07/2024 | Random walk |
 | 24/06/2024 | La verosimiglianza e il suo profilo |
 | 19/02/2024 | Un dataset da Nobel: la densità dell'universo |
 | 05/02/2024 | Test di bontà di fit |
