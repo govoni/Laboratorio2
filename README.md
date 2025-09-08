@@ -9,6 +9,7 @@ e di laboratorio di calcolo e statistica a partire dal 2023.
 | data | titolo |
 | --- | --- |
 | 01/09/2025 | Algoritmo di Metropolis per la generazione di numeri pseudo-casuali Gaussiani |
+| 07/07/2025 | Integrali di funzione e incertezze, statistiche e sistematiche |
 | 24/02/2025 | Receiving operator characteristic per un fit |
 | 10/02/2025 | Misure Poissoniane |
 | 27/01/2025 | Fit di segnale in presenza di rumore |
