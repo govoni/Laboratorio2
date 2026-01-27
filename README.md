@@ -8,6 +8,7 @@ e di laboratorio di calcolo e statistica a partire dal 2023.
 
 | data | titolo |
 | --- | --- |
+| 27/01/2026 | Kernel Density Estimation |
 | 12/01/2026 | Una semplice simulazione del picco di Bragg |
 | 01/09/2025 | Algoritmo di Metropolis per la generazione di numeri pseudo-casuali Gaussiani |
 | 07/07/2025 | Integrali di funzione e incertezze, statistiche e sistematiche |
